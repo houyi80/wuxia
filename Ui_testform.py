@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/Users/houyi/Desktop/wuxia/testform.ui'
+# Form implementation generated from reading ui file 'f:\wuxia\testform.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.13.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -16,6 +16,8 @@ class Ui_Form(object):
         Form.resize(800, 600)
         self.infoBox = QtWidgets.QTextBrowser(Form)
         self.infoBox.setGeometry(QtCore.QRect(10, 301, 461, 261))
+        self.infoBox.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.infoBox.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
         self.infoBox.setObjectName("infoBox")
         self.pb_time = QtWidgets.QProgressBar(Form)
         self.pb_time.setGeometry(QtCore.QRect(10, 570, 211, 23))
